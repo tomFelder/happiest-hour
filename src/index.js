@@ -5,7 +5,7 @@ import { ConnectedRouter } from 'react-router-redux'
 
 import store, { history } from './store'
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
 
 const targetElm = document.getElementById('root')
