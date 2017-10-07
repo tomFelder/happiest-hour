@@ -9,6 +9,9 @@
 # production
 /build
 
+# react-toolbox
+/src/assets/react-toolbox
+
 # misc
 .DS_Store
 .env.local

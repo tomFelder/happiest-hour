@@ -12,10 +12,18 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
+  "reactToolbox": {
+    "output": "src/assets/react-toolbox"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "toolbox": "react-toolbox-themr",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-toolbox": "2.0.0-beta.6",
+    "react-toolbox-themr": "^1.0.2"
   }
 }
